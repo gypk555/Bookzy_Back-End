@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db=new pg.Client({
-    user:"postgres",
+    user:"bookzy_users",
     host:"localhost",
     database:"bookzy",
     password:"555",
