@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 const db=new pg.Client({
     user:"bookzy_users",
-    host:"dpg-ctj4ut5svqrc738651ag-a.compute.amazonaws.com",
+    host:"dpg-ctj4ut5svqrc738651ag-a",
     database:"bookzy_dcx8",
     password:"LC4ywvV0PyuhhijQormcx51gcMFt0C2G",
     port:5432,
