@@ -12,9 +12,9 @@ app.use(bodyParser.json());
 
 const db=new pg.Client({
     user:"bookzy_users",
-    host:"localhost",
-    database:"bookzy",
-    password:"555",
+    host:"postgresql://bookzy_users:LC4ywvV0PyuhhijQormcx51gcMFt0C2G@dpg-ctj4ut5svqrc738651ag-a/bookzy_dcx8",
+    database:"bookzy_dcx8",
+    password:"LC4ywvV0PyuhhijQormcx51gcMFt0C2G",
     port:5432,
 });
 
